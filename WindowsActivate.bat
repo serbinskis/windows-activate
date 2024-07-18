@@ -1,6 +1,6 @@
-@echo off 
-echo Windows activation... 
-set i=1
+@echo off
+cls & set i=1
+echo Windows activation...
 
 :server
 if %i%==1 set KMS=kms.chinancce.com
