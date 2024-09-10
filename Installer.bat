@@ -71,7 +71,7 @@ echo     ^</Exec^> >> "%TEMP%\WindowsActivate.xml"
 echo   ^</Actions^> >> "%TEMP%\WindowsActivate.xml"
 echo ^</Task^> >> "%TEMP%\WindowsActivate.xml"
 
-schtasks /create /xml "%TEMP%\WindowsActivate.xml" /tn "Windows Activate"
+schtasks /create /xml "%TEMP%\WindowsActivate.xml" /tn "Windows Activate" /f
 del "%TEMP%\WindowsActivate.xml"
 call "%SystemRoot%\WindowsActivate.bat"
 timeout /t 5 /nobreak
