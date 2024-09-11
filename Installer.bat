@@ -1,7 +1,7 @@
 @echo off
 
 echo @echo off > "%SystemRoot%\WindowsActivate.bat"
-echo powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/WobbyChip/Windows-Activate/master/WindowsActivate.bat' -OutFile \"$env:TEMP\WindowsActivate.bat\"" >> "%SystemRoot%\WindowsActivate.bat"
+echo powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/serbinskis/Windows-Activate/master/WindowsActivate.bat' -OutFile \"$env:TEMP\WindowsActivate.bat\"" >> "%SystemRoot%\WindowsActivate.bat"
 echo cmd.exe /c "%TEMP%\WindowsActivate.bat" >> "%SystemRoot%\WindowsActivate.bat"
 echo powershell -Command "Remove-Item \"$env:TEMP\WindowsActivate.bat\"" >> "%SystemRoot%\WindowsActivate.bat"
 
