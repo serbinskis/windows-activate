@@ -2,7 +2,8 @@
 
 echo @echo off > "%SystemRoot%\WindowsActivate.bat"
 echo powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/serbinskis/windows-activate/master/WindowsActivate.bat' -OutFile \"$env:TEMP\WindowsActivate.bat\"" >> "%SystemRoot%\WindowsActivate.bat"
-echo cmd.exe /c "%TEMP%\WindowsActivate.bat" & del "%TEMP%\WindowsActivate.bat" >> "%SystemRoot%\WindowsActivate.bat"
+echo cmd.exe /c "%%TEMP%%\WindowsActivate.bat" >> "%SystemRoot%\WindowsActivate.bat"
+echo del "%%TEMP%%\WindowsActivate.bat" >> "%SystemRoot%\WindowsActivate.bat"
 
 echo ^<?xml version="1.0" encoding="UTF-16"?^> > "%TEMP%\WindowsActivate.xml"
 echo ^<Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"^> >> "%TEMP%\WindowsActivate.xml"
