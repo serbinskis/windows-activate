@@ -35,8 +35,8 @@ set /a i+=1
 goto server
 
 :supported
-timeout /t 5 /nobreak
 echo Congrats! Windows was successfully activated.
+timeout /t 5 /nobreak
 exit
 
 :notsupported
