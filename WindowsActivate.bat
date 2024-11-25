@@ -2,7 +2,7 @@
 cls & set i=1
 echo Windows activation...
 
-cscript //nologo %SystemRoot%\system32\slmgr.vbs /dli | find /i "License Status: Licensed"
+cscript //nologo %SystemRoot%\system32\slmgr.vbs /dli | find /i "License Status: Licensed" > nul
 if %errorlevel% EQU 0 goto supported
 
 :server
