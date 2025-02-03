@@ -20,6 +20,7 @@ cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk 2F77B-TNFGY-69QQF-B8YKP-D6
 cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ > nul
 cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk QFFDN-GRT3P-VKWWX-X7T3R-8B639 > nul
 cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 > nul
+cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk 268M8-F3NV2-46WHD-BD2R6-V6DDR > nul
 cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk 3KHY7-WNT83-DGQKR-F7HPR-844BM > nul
 cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH > nul
 cscript //nologo %SystemRoot%\system32\slmgr.vbs /ipk PVMJN-6DFY6-9CCP6-7BKTT-D3WVR > nul
