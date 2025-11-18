@@ -6,10 +6,10 @@ cscript //nologo %SystemRoot%\system32\slmgr.vbs /dli | find /i "License Status:
 if %errorlevel% EQU 0 goto supported
 
 :server
-if %i%==1 set KMS=kms.chinancce.com
+if %i%==1 set KMS=kms9.MSGuides.com
 if %i%==2 set KMS=kms7.MSGuides.com
 if %i%==3 set KMS=kms8.MSGuides.com
-if %i%==4 set KMS=kms9.MSGuides.com
+if %i%==4 set KMS=kms.chinancce.com
 if %i%==5 goto notsupported
 
 echo Trying to activate Windows using KMS: %KMS% ...
